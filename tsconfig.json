@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(main)/Send/index.js", "app/(main)/Send/_layout.js", "app/(main)/Paye/index.js", "app/(main)/Paye/_layout.js", "app/(main)/Options/index.js", "app/(main)/Options/_layout.js", "app/(main)/Home/index.js", "app/(main)/Home/_layout.js", "components/global/LogoutButton/index.js"  ]
+}
